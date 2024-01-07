@@ -8,10 +8,12 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
 }
 
 .nav_title {
-  color: var(--Dark-01, #181818);
+  color: #181818;
   font-size: 45px;
 }
 
@@ -27,6 +29,7 @@ nav {
   font-weight: 00;
   color: white;
   padding: 15px 35px;
+  margin-right: 20px;
 }
 
 nav ul {
@@ -46,5 +49,33 @@ nav a {
 }
 .header{
   background: #FFF8F3;
-  padding: 30px 30px 30px 200px;
+  background-image: url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner{
+  display: flex;
+  padding: 30px 30px 30px 150px;
+  align-items: center;
+}
+.banner .profile-pic{
+  width: 500px;
+}
+.banner-greeting{
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 5px;
+}
+.banner-title{
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.banner-description{
+  margin-bottom: 30px;
+}
+.banner-button{
+  padding: 18px 18px 15px 30px;
 }
